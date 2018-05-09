@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "rootDir": "src",
+    "outDir": "lib",
+    "target": "es2015",
+    "lib": ["dom", "es2016"],
+    "noImplicitAny": false,
+    "traceResolution": true
+  },
+  "include": ["src/**/*"]
+}
