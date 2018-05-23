@@ -1,0 +1,21 @@
+{
+  "version": "2.8.1",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src": ["src"],
+      "api-url": ["settings/apiUrls"]
+    },
+    "target": "es6",
+    "outDir": "tmp",
+    "sourceMap": true,
+    "module": "esnext",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "lib": ["es2017", "dom"],
+    "jsx": "react"
+  },
+
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,4 @@
+.root{}
+.classA:global(:selected) {
+    color: red;
+}
